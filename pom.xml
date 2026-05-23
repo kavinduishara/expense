@@ -16,9 +16,9 @@
 	<description>Expense Tracker Application</description>
 
 	<properties>
-		<java.version>25</java.version>                  <!-- 24 → 25 -->
-		<maven.compiler.source>25</maven.compiler.source> <!-- 24 → 25 -->
-		<maven.compiler.target>25</maven.compiler.target> <!-- 24 → 25 -->
+		<java.version>21</java.version>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
 
 	<dependencies>
@@ -59,7 +59,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.36</version>               <!-- explicit version -->
+			<version>1.18.36</version>
 			<optional>true</optional>
 		</dependency>
 
@@ -80,13 +80,13 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
 				<configuration>
-					<source>25</source>               <!-- 24 → 25 -->
-					<target>25</target>               <!-- 24 → 25 -->
+					<source>21</source>
+					<target>21</target>
 					<annotationProcessorPaths>
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
-							<version>1.18.36</version> <!-- 1.18.32 → 1.18.36 -->
+							<version>1.18.36</version>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
